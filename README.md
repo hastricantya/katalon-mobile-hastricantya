@@ -18,5 +18,5 @@ C. Reporting in Reports Folder there are:
 2. Html Report
 3. Image of html report
 
-D. Steps to try this automation using katalon: Click folder "Mobile To Do" Or the other way, Open Katalon > New Project from version control/git > Click Clone Git > Copy link HTTPS this repository then paste it > Open folder Test Case > Click run
+D. Steps to try this automation using katalon: Click folder "Mobile To Do" Or the other way, Open Katalon > New Project from version control/git > Click Clone Git > Copy link HTTPS this repository then paste it > Open folder Test Case > Click run > Prepare your mobile phone and install the TO DO apk
 
