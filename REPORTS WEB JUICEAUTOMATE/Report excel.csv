@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS LOGIN and SWITCH DELIVERY,Chrome 128.0.0.0,,,13-09-2024 15:44:58,13-09-2024 15:45:55,57.183s,PASSED
+,,,,,,,
+Test Cases/BLOCKS/Login,Chrome 128.0.0.0,,,13-09-2024 15:44:58,13-09-2024 15:45:09,11.449s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,13-09-2024 15:44:58,13-09-2024 15:45:00,1.806s,PASSED
+"navigateToUrl(""https://juice-shop.herokuapp.com/#/"")",Chrome 128.0.0.0,,,13-09-2024 15:45:00,13-09-2024 15:45:04,4.304s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,13-09-2024 15:45:04,13-09-2024 15:45:04,0.073s,PASSED
+"click(findTestObject(""LOGIN/Page_OWASP Juice Shop/span_Dismiss""))",Chrome 128.0.0.0,,,13-09-2024 15:45:04,13-09-2024 15:45:05,0.464s,PASSED
+"click(findTestObject(""Object Repository/LOGIN/Page_OWASP Juice Shop/button_account""))",Chrome 128.0.0.0,,,13-09-2024 15:45:05,13-09-2024 15:45:05,0.647s,PASSED
+"click(findTestObject(""Object Repository/LOGIN/Page_OWASP Juice Shop/button_login""))",Chrome 128.0.0.0,,,13-09-2024 15:45:05,13-09-2024 15:45:06,0.534s,PASSED
+"click(findTestObject(""Object Repository/LOGIN/Page_OWASP Juice Shop/click_Email""))",Chrome 128.0.0.0,,,13-09-2024 15:45:06,13-09-2024 15:45:06,0.724s,PASSED
+"setText(findTestObject(""Object Repository/LOGIN/Page_OWASP Juice Shop/text_email""), ""hcd257hastri@gmail.com"")",Chrome 128.0.0.0,,,13-09-2024 15:45:06,13-09-2024 15:45:07,0.649s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LOGIN/Page_OWASP Juice Shop/text_password""), ""hwlV2QQH4zM="")",Chrome 128.0.0.0,,,13-09-2024 15:45:07,13-09-2024 15:45:08,0.366s,PASSED
+"click(findTestObject(""Object Repository/LOGIN/Page_OWASP Juice Shop/click_login""))",Chrome 128.0.0.0,,,13-09-2024 15:45:08,13-09-2024 15:45:08,0.297s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LOGIN/Page_OWASP Juice Shop/div_All Products""))",Chrome 128.0.0.0,,,13-09-2024 15:45:08,13-09-2024 15:45:09,1.359s,PASSED
+,,,,,,,
+Test Cases/BLOCKS/Add Juice to Cart,Chrome 128.0.0.0,,,13-09-2024 15:45:09,13-09-2024 15:45:14,5.288s,PASSED
+"click(findTestObject(""Object Repository/Add Juice to Cart/Page_OWASP Juice Shop/add_apple""))",Chrome 128.0.0.0,,,13-09-2024 15:45:09,13-09-2024 15:45:10,0.312s,PASSED
+"click(findTestObject(""Object Repository/Add Juice to Cart/Page_OWASP Juice Shop/add_apple""))",Chrome 128.0.0.0,,,13-09-2024 15:45:10,13-09-2024 15:45:11,1.577s,PASSED
+"click(findTestObject(""Object Repository/Add Juice to Cart/Page_OWASP Juice Shop/add_banana""))",Chrome 128.0.0.0,,,13-09-2024 15:45:11,13-09-2024 15:45:13,1.571s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add Juice to Cart/Page_OWASP Juice Shop/h1_cart visible""))",Chrome 128.0.0.0,,,13-09-2024 15:45:13,13-09-2024 15:45:14,1.750s,PASSED
+,,,,,,,
+Test Cases/BLOCKS/Add Address,Chrome 128.0.0.0,,,13-09-2024 15:45:14,13-09-2024 15:45:24,9.903s,PASSED
+"click(findTestObject(""Object Repository/Checkout Juice/Page_OWASP Juice Shop/btn_Checkout""))",Chrome 128.0.0.0,,,13-09-2024 15:45:15,13-09-2024 15:45:15,0.293s,PASSED
+"click(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/button_addaddress""))",Chrome 128.0.0.0,,,13-09-2024 15:45:15,13-09-2024 15:45:19,4.006s,PASSED
+"setText(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/text_address""), ""Indonesia"")",Chrome 128.0.0.0,,,13-09-2024 15:45:19,13-09-2024 15:45:20,0.781s,PASSED
+"setText(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/text_name""), ""Cancan"")",Chrome 128.0.0.0,,,13-09-2024 15:45:20,13-09-2024 15:45:20,0.579s,PASSED
+"click(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/text_mobilenumber""))",Chrome 128.0.0.0,,,13-09-2024 15:45:20,13-09-2024 15:45:20,0.288s,PASSED
+"click(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/text_country""))",Chrome 128.0.0.0,,,13-09-2024 15:45:20,13-09-2024 15:45:21,0.303s,PASSED
+"setText(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/text_mobile""), ""1000000000"")",Chrome 128.0.0.0,,,13-09-2024 15:45:21,13-09-2024 15:45:22,1.011s,PASSED
+"setText(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/text_zipcode""), ""12345"")",Chrome 128.0.0.0,,,13-09-2024 15:45:22,13-09-2024 15:45:23,0.848s,PASSED
+"setText(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/text_ZIP Code_address""), ""jakarta"")",Chrome 128.0.0.0,,,13-09-2024 15:45:23,13-09-2024 15:45:23,0.824s,PASSED
+"setText(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/text_state""), ""jakarta"")",Chrome 128.0.0.0,,,13-09-2024 15:45:23,13-09-2024 15:45:24,0.595s,PASSED
+"click(findTestObject(""Object Repository/Add Address/Page_OWASP Juice Shop/button_submit""))",Chrome 128.0.0.0,,,13-09-2024 15:45:24,13-09-2024 15:45:24,0.296s,PASSED
+,,,,,,,
+Test Cases/SCENARIOS/P.5 IF Else Delivery,Chrome 128.0.0.0,,,13-09-2024 15:45:24,13-09-2024 15:45:55,30.380s,PASSED
+"callTestCase(findTestCase(""BLOCKS/Login""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 15:45:25,13-09-2024 15:45:35,10.927s,PASSED
+"callTestCase(findTestCase(""BLOCKS/Add Juice to Cart""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 15:45:35,13-09-2024 15:45:45,9.316s,PASSED
+"callTestCase(findTestCase(""BLOCKS/Add Address""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 15:45:45,13-09-2024 15:45:52,6.862s,PASSED
+"click(findTestObject(""Checkout Juice/RADIO ADDRESS/radio_address""))",Chrome 128.0.0.0,,,13-09-2024 15:45:52,13-09-2024 15:45:53,1.467s,PASSED
+"click(findTestObject(""Object Repository/Checkout Juice/Page_OWASP Juice Shop/btn_continuetodelivery""))",Chrome 128.0.0.0,,,13-09-2024 15:45:53,13-09-2024 15:45:53,0.305s,PASSED
+select_radio = radio_delivery,Chrome 128.0.0.0,,,13-09-2024 15:45:53,13-09-2024 15:45:53,0.002s,PASSED
+switch (select_radio),Chrome 128.0.0.0,isi delivery,,13-09-2024 15:45:53,13-09-2024 15:45:54,1.064s,PASSED
+"click(findTestObject(""Object Repository/Checkout Juice/Page_OWASP Juice Shop/btn_continuetopayment""))",Chrome 128.0.0.0,,,13-09-2024 15:45:54,13-09-2024 15:45:55,0.295s,PASSED
